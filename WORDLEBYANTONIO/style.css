@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(214,214,214);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+    color: black;
+}
+
+#lineaPrincipal{
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+input[type="text"], button{
+    font-family: 'Kanit', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin: 5px;
+    align-items: center;
+    border-color: black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+}
+
+.boton1{
+    background-color: #7AFF33;
+}
+#camposprincipales{
+    margin-top: 24px;
+    
+}
+
+.row{
+    width: 100%;
+    height: 60px;
+}
+
+.one,.two,.three{
+    margin: 10px 0 0 0;
+}
+
+.tecla{
+    color: black;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background: #B3B3B3;
+    box-shadow: 5px 5px 10px #474343, -5px -5px 10px #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: x-large;
+}
+
+button:active{
+    box-shadow: 1px 1px 1px #fff8f8, -1px -1px 2px #474343;
+}
+
+.retroceder{
+    width: 225px;
+    border-radius: 10px;
+    color: black;
+    height: 55px;
+    border: none;
+    background: #B3B3B3;
+    box-shadow: 5px 5px 10px #474343, -5px -5px 10px #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    outline: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: x-large;
+}
+
+#mensajeWin{
+    text-align: center;
+}
+
+#ranking{
+    text-align: right;
+}
+
+#imagenPuntos{
+    text-align: left;
+}
+
+#puntosPartida{
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border-radius: 30px;
+}
+
+#inputWin{
+    width: 225px;
+}
+
+.boton2{
+    width: 225px;
+    height: 100px;
+}
